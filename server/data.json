@@ -24,12 +24,7 @@
       "secondname": "Khaled",
       "password": "123456"
     },
-    {
-      "id": 5,
-      "firstname": "Aya",
-      "secondname": "Khaled",
-      "password": "123456"
-    }
+    { "id": 5, "firstname": "ali", "secondname": "hassan", "password": "9999" }
   ],
   "posts": [
     {
@@ -39,7 +34,6 @@
     },
     { "userId": 2, "title": "Test 1", "content": "hi hello " },
     { "userId": 2, "title": "Test 2", "content": "its me again" },
-    { "userId": 3, "title": "IDK ", "content": "hello world" },
-    { "userId": 3, "title": "333", "content": "333333" }
+    { "userId": 3, "title": "IDK ", "content": "hello world" }
   ]
 }
