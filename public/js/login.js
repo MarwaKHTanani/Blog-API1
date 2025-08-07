@@ -10,7 +10,7 @@ form.addEventListener("submit", async (e) => {
   const firstnameValue = form.firstname.value.trim();
   const passwordValue = form.password.value.trim();
 
-  fetch(
+  myFetch(
     "/users/login",
     "POST",
     (err, users) => {
