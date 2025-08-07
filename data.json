@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstname": "John",
+      "secondname": "Doe",
+      "password": "yourPassword123"
+    },
+    {
+      "id": 2,
+      "firstname": "Marwa",
+      "secondname": "Tanani",
+      "password": "123"
+    },
+    {
+      "id": 3,
+      "firstname": "Khaled",
+      "secondname": "Tanani",
+      "password": "147852369"
+    },
+    {
+      "id": 4,
+      "firstname": "Aya",
+      "secondname": "Khaled",
+      "password": "123456"
+    },
+    {
+      "id": 5,
+      "firstname": "Aya",
+      "secondname": "Khaled",
+      "password": "123456"
+    }
+  ],
+  "posts": [
+    {
+      "userId": 1,
+      "title": "My First Post",
+      "content": "This is the content of my very first post. Hello world!"
+    },
+    { "userId": 2, "title": "Test 1", "content": "hi hello " },
+    { "userId": 2, "title": "Test 2", "content": "its me again" },
+    { "userId": 3, "title": "IDK ", "content": "hello world" },
+    { "userId": 3, "title": "333", "content": "333333" }
+  ]
+}
