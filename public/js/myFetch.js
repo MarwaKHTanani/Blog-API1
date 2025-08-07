@@ -12,7 +12,7 @@ export default (url, method = "GET", callback, body = null) => {
     }
   };
 
-  const fullUrl = `http://localhost:3000${url}`;
+  const fullUrl = `http://localhost:5000${url}`;
   xhr.open(method, fullUrl);
 
   if (body) {

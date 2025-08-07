@@ -2,7 +2,15 @@ const express = require("express");
 const app = express();
 const path = require("path");
 
-const port = process.env.PORT || 3000;
+
+app.use(function (req, res, next) {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader('Access-Control-Allow-Methods', '*');
+  res.setHeader("Access-Control-Allow-Headers", "*");
+  next();
+}); 
+
+const port = process.env.PORT || 5000;
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "../public")));
 
