@@ -16,7 +16,7 @@
   "main": "server.js",
   "scripts": {
     "test": "jest",
-    "start": "node server.js",
+    "start": "node server/server.js",
     "dev": "nodemon server/server.js"
   },
   "dependencies": {
