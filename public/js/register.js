@@ -14,7 +14,7 @@ form.addEventListener("submit", async (e) => {
     errorMsg.classList.remove("hidden");
     return;
   }
-  myFetch(
+  fetch(
     "/users/register",
     "POST",
     (err, data) => {

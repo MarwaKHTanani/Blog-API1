@@ -27,7 +27,7 @@ const createPostCard = (post) => {
   return card;
 };
 function loadPosts() {
-  myFetch("/posts", "GET", (err, posts) => {
+  fetch("/posts", "GET", (err, posts) => {
     if (err) {
       errorMsg.textContent = "Failed to load posts";
       errorMsg.classList.remove("hidden");
