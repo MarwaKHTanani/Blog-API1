@@ -12,7 +12,7 @@ export default (url, method = "GET", callback, body = null) => {
     }
   };
 
-  const fullUrl = `https://blog-api1-2-paj6.onrender.com/${url}`;
+  const fullUrl = `http://localhost:5000${url}`;
   xhr.open(method, fullUrl);
 
   if (body) {
