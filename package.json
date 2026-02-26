@@ -1,0 +1,30 @@
+{
+  "name": "blog-api1",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/MarwaKHTanani/Blog-API1#readme",
+  "bugs": {
+    "url": "https://github.com/MarwaKHTanani/Blog-API1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarwaKHTanani/Blog-API1.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^30.0.5",
+    "supertest": "^7.1.4",
+    "tailwindcss": "^4.1.11"
+  }
+}
